@@ -1,0 +1,105 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+button {
+	background-color: aquamarine;
+	border-radius: 10%;
+	font-size: 15px;
+	padding: 10px;
+	width: 100px;
+}
+
+.court {
+	margin: 20px auto;
+	width: 52vw;
+	height: 34vw;
+	text-align: center;
+}
+
+.team-field {
+	width: 50%;
+	height: 34vw;
+	background: rgb(250, 170, 46);
+	border: 5px solid rgb(73, 36, 120);
+	overflow: hidden;
+	float: left;
+	/* border-width: 10px 5px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 25%;
+	position: relative;
+	top: 0px;
+	display: inline-flex;
+	align-items: center; */
+}
+
+.rotate-position {
+	transform: rotate(180deg);
+}
+
+.three-points-arc {
+	border-width: 10px 10px 10px 0;
+	border-style: solid;
+	border-color: white;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background: rgb(73, 36, 120);
+	position: relative;
+	top: 10%;
+	right: 20%;
+}
+
+.free-trows {
+	height: 7vw;
+	width: 17vw;
+	border: 10px solid white;
+	border-radius: 13px;
+	position: absolute;
+	top: 35%;
+}
+
+.free-trows-circle {
+	margin-right: -3.8vw;
+	height: 7vw;
+	width: 7vw;
+	border-radius: 50%;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	position: absolute;
+	top: -9px;
+	left: 80%;
+}
+
+.hits-mistakes {
+	text-align: center;
+	width: 20%;
+	margin: auto;
+}
+
+.hit {
+	background-color: green;
+	border-radius: 10%;
+	margin: 10px auto;
+	padding: 10px;
+	width: 100px;
+}
+
+.mistake {
+	background-color: red;
+	border-radius: 10%;
+	margin: 10px auto;
+	padding: 10px;
+	width: 100px;
+}
